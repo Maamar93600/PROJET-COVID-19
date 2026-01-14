@@ -5,5 +5,11 @@ Le travail présenté dans ce repository a été réalisé dans le cadre d’une
 Les données ont été téléchargées depusi Kaggle sur le lien suivant :
 https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database/data
 
-Lien de l'application du projet :
-https://app-covid-ds.streamlit.app/
+Une application de démonstration du projet a été développée avec Streamlit.
+À l’époque du projet, l’application était pleinement fonctionnelle, les fichiers et modèles étant disponibles localement dans l’environnement de formation,et non directement depuis le dépôt GitHub.
+
+👉 Le dépôt est actuellement en cours de finalisation : certains éléments (modèles, structure finale,images) sont en cours de réorganisation et d’adaptation.
+La version en ligne correspond à une version intermédiaire, susceptible d’évoluer progressivement selon l’avancement du travail et les disponibilités.
+
+https://covid19-image-computeur-vision.streamlit.app/
+
