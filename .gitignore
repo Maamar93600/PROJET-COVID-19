@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+*.npz
+*.h5
+*.json
+*.keras

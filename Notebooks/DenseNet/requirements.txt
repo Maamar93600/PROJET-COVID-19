@@ -1,0 +1,48 @@
+# colab
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Chemin vers le dataset sur Google Drive
+dataset_path = '/content/drive/MyDrive/COVID-19_Radiography_Dataset/'
+
+
+
+# Pour le téléchargement des datasets  'COVID-19_Radiography_Dataset/'
+requests==2.28.1  
+kaggle==1.5.12    
+
+
+
+# Importation des bibliothèques et des fonctions nécessaires
+
+
+# Bibliothèques pour la gestion du modèle et de l'entraînement
+tensorflow==2.11.0  # TensorFlow, qui inclut Keras pour la gestion du modèle
+h5py==3.7.0  # Pour la manipulation des fichiers HDF5 (souvent utilisé pour enregistrer les modèles)
+scikit-learn==1.0.2  # Pour les outils de prétraitement et de traitement de données (LabelEncoder, train_test_split, etc.)
+
+# Bibliothèques pour le traitement des données
+pandas==1.5.3  # Manipulation des données en DataFrame
+seaborn==0.11.2  # Visualisation des données (avancé par rapport à matplotlib)
+plotly==5.10.0  # Visualisation interactive des données
+numpy==1.23.5  # Calculs numériques
+
+# Bibliothèques pour le traitement et la visualisation des images
+Pillow==9.4.0  # Traitement d'images (PIL)
+imageio==2.24.0  # Chargement des images
+matplotlib==3.6.0  # Visualisation des données et des images
+tqdm==4.64.1  # Pour afficher des barres de progression pendant les boucles
+
+# Bibliothèques supplémentaires pour le modèle
+scipy==1.9.3  # Utilisée dans certains cas pour les calculs numériques avancés
+shutil==1.0.0  # Pour les manipulations de fichiers et répertoires
+json==2.0.9  # Pour travailler avec des fichiers JSON (si nécessaire pour la gestion des métadonnées)
+
+# Utilitaire de Keras pour la gestion du modèle
+keras==2.11.0  # Keras, qui fait maintenant partie de TensorFlow, mais peut être utilisé indépendamment
+
+# Bibliothèques pour le prétraitement des images (Keras)
+tensorflow.keras.preprocessing==2.11.0  # Pour le chargement et la prétraitement des images avec ImageDataGenerator
+
+# Autres outils utiles
+random==2.0  # Pour la génération de nombres aléatoires (parfois utilisé dans le prétraitement)
